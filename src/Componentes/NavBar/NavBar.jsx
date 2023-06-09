@@ -5,7 +5,7 @@ import './NavBar.css'
 const NavBar = () => {
   return (
     <header>
-      <h1>LADIP Online</h1>
+      <img src="https://i.postimg.cc/0j7nP7Tq/ladip-logo.png" alt="Ladip logo" />
 
       <nav>
         <ul>
