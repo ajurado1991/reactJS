@@ -1,0 +1,22 @@
+.cardProductos {
+    border-top: 1px rgb(221, 221, 221) solid;
+    height: 350px;
+    width: 240px;
+    padding: 12px;
+    margin: 8px;
+    text-align: center;
+}
+
+.cardProductos img {
+    width: 200px;
+    height: 180px;
+}
+
+.botonEspecs {
+    text-decoration: none;
+    border-top: 1px solid rgb(226, 226, 226);
+    border-bottom: 1px solid rgb(226, 226, 226);
+    color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+}

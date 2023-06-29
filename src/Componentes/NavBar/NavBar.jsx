@@ -1,22 +1,31 @@
 import React from 'react'
 import CartWidget from '../CartWidget/CartWidget'
 import './NavBar.css'
+import { Link, NavLink } from 'react-router-dom'
 
 const NavBar = () => {
   return (
     <header>
-      <img src="https://i.postimg.cc/0j7nP7Tq/ladip-logo.png" alt="Ladip logo" />
+
+      <Link to='/'>
+        <img src="https://i.postimg.cc/0j7nP7Tq/ladip-logo.png" alt="Ladip logo" />
+      </Link>
 
       <nav>
         <ul>
-          <li>Living</li>
-          <li>Dining</li>
-          <li>Bed</li>
-          <li>Lighting</li>
-          <li>Textiles</li>
-          <li>Outdoor</li>
-          <li>Projects</li>
-          <li>About</li>
+          <li>
+            <NavLink to={'/categoria/2'}>Sillas</NavLink>
+          </li>
+          <li>
+            <NavLink to={'/categoria/3'}>Poltronas</NavLink>
+          </li>
+          <li>
+            <NavLink to={'/categoria/4'}>Mesas</NavLink>
+          </li>
+          <li>
+            <NavLink to={'/categoria/5'}>Lamparas</NavLink>
+          </li>
+
         </ul>
       </nav>
 
